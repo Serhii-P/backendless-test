@@ -29,18 +29,6 @@ const App = () => {
     ],
   };
 
-  const inputChangeXaxisHandler = (event) => {
-    event.target.value ? 
-    setMonthes(event.target.value.split(',')) : 
-    setMonthes([])
-  }
-
-  const inputChangeYaxisHandler = (event) => {
-    event.target.value ? 
-    setUserValues(event.target.value.split(',')) : 
-    setUserValues([])
-  }
-
   return (
     <div className="App">
       <div className="app-container">
@@ -50,13 +38,13 @@ const App = () => {
             label="X axis labels:"
             placeholder="Fill monthes for x axis"
             inputValue={monthes}
-            inputChangeHandler={inputChangeXaxisHandler}
+            onInputChange={setMonthes}
           />
           <InputDataControl 
             label="Y axis values:"
             placeholder="Fill values for y axis"
             inputValue={userValues}
-            inputChangeHandler={inputChangeYaxisHandler}
+            onInputChange={setUserValues}
           />
         </div>
         <div className='chart-screen' >
