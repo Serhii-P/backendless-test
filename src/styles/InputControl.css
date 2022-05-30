@@ -1,0 +1,31 @@
+.input-block {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.input-block label {
+  color: #544f4f;
+}
+
+.input-data {
+  min-width: 400px;
+  padding: 10px;
+  font-size: 18px;
+}
+
+@media (max-width: 520px) {
+  .input-data {
+    min-width: 300px;
+    padding: 7px;
+    font-size: 15px;
+  }
+
+  .input-block label {
+    font-size: 14px;
+  }
+
+  .input-block {
+    margin-bottom: 10px;
+  }
+}
