@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/backendless-test/static/css/main.800718b9.css",
+    "main.css": "/backendless-test/static/css/main.5be2b5da.css",
     "main.js": "/backendless-test/static/js/main.07eb6a2f.js",
     "index.html": "/backendless-test/index.html",
-    "main.800718b9.css.map": "/backendless-test/static/css/main.800718b9.css.map",
+    "main.5be2b5da.css.map": "/backendless-test/static/css/main.5be2b5da.css.map",
     "main.07eb6a2f.js.map": "/backendless-test/static/js/main.07eb6a2f.js.map"
   },
   "entrypoints": [
-    "static/css/main.800718b9.css",
+    "static/css/main.5be2b5da.css",
     "static/js/main.07eb6a2f.js"
   ]
 }
